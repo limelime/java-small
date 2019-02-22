@@ -2,7 +2,7 @@ package net.openwritings.xngo.tutorial.lang;
 
 /**
  * Show the minimum and the maximum value of Java primitive data types.
- * Note: Unlike other languages(e.g. C/C++), Java doesn't provide unsigned types of its integers.
+ * Note: Unlike other languages(e.g. C/C++), Java doesn't provide unsigned types of their integers.
  * @author Xuan Ngo
  *
  */
