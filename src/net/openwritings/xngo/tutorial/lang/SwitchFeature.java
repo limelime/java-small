@@ -1,11 +1,5 @@
 package net.openwritings.xngo.tutorial.lang;
 
-/**
- * Show the minimum and the maximum value of Java primitive data types.
- * Note: Unlike other languages(e.g. C/C++), Java doesn't provide unsigned types of its integers.
- * @author Xuan Ngo
- *
- */
 public class SwitchFeature {
 
 	public static void main(String[] args) {
