@@ -1,4 +1,4 @@
-package net.openwritings.xngo.tutorial.lang;
+package net.openwritings.xngo.java.lang;
 
 /**
  * Show the minimum and the maximum value of Java primitive data types.

@@ -1,4 +1,4 @@
-package net.openwritings.xngo.tutorial.math;
+package net.openwritings.xngo.java.math;
 
 public class RandomNumber {
 
