@@ -38,7 +38,7 @@ public class SwitchFeature {
 			case 5: System.out.println("Run changes for version 5.");
 				break;
 			default:
-				System.out.println("not found");
+				System.out.println("Version number not supported!");
 				break;
 		}
 	}
