@@ -1,4 +1,4 @@
-package net.openwritings.xngo.java.lang;
+package net.openwritings.java.lang;
 /**
  * Performance of primitive data type vs object data type in Java
  * @author Xuan Ngo

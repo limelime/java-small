@@ -1,4 +1,4 @@
-package net.openwritings.xngo.java.lang;
+package net.openwritings.java.lang;
 
 public class StringFormat {
 
