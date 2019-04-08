@@ -24,7 +24,7 @@ public class ConsoleTutorial
 
         // From here, all System.out.println() calls will be stored in newConsole.
         //  Note: The output "Two - New console" you see from the console doesn't  
-        //		come from this line but from the lines below: previousConsole.println();
+        //		come from this line but from the line "previousConsole.println();"
         System.out.println("Two - New console");
         
         previousConsole.println(newConsole.toString()); // Display output.
