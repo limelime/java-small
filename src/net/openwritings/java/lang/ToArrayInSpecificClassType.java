@@ -6,13 +6,15 @@ public class ToArrayInSpecificClassType
 {
     public static void main(String[] args){
         // Create sample data.
-        ArrayList<String> lStrings = new ArrayList<String>();
-        lStrings.add("ab"); lStrings.add("cd"); lStrings.add("ef");
+        ArrayList<String> myStrings = new ArrayList<String>();
+        myStrings.add("ab");
+        myStrings.add("cd"); 
+        myStrings.add("ef");
 
-        // This will return an array of object. It isn't what we want.
-        Object[] oStrings = lStrings.toArray();
+        // This will return an array of object. But is not want to want.
+        Object[] oStrings = myStrings.toArray();
 
-        // This will return an array of specific class type(i.e String).
-        String[] aStrings = lStrings.toArray(new String[0]);
+        // Now, convert object strings into an array of specific class type(i.e String).
+        String[] arrStrings = myStrings.toArray(new String[0]);
     }
 }
