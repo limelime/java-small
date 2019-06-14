@@ -21,7 +21,8 @@ public class MyProperties
 
         // Save properties into file. 
         try{
-            oWriteProperties.store(new FileOutputStream("myproperties.properties"), "my first properties list");
+            oWriteProperties.store(new FileOutputStream("myproperties.properties"), 
+            											"my first properties list");
         }
         catch(FileNotFoundException ex){
             System.out.println(ex.getMessage());
