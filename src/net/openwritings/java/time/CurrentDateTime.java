@@ -4,6 +4,8 @@ import java.util.Date;
 import java.util.Calendar;
 import java.time.LocalDateTime;
 import java.time.LocalDate;
+import java.time.ZonedDateTime;
+
 import java.text.SimpleDateFormat;
 
 public class CurrentDateTime {
@@ -24,6 +26,9 @@ public class CurrentDateTime {
 
         LocalDate localDate = LocalDate.now();
         System.out.println(localDate.toString());
+
+        ZonedDateTime zonedDateTime = ZonedDateTime.now();
+        System.out.println(zonedDateTime.toString());
 
     }
 
