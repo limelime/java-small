@@ -7,7 +7,7 @@ public class AddSubDateTime {
 
 	public static void main(String[] args) {
 
-		// Get today.
+		// Get today date time.
         LocalDateTime today = LocalDateTime.now();
         System.out.println("today = " + today.toString());
 
