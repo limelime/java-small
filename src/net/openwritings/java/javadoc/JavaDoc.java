@@ -53,8 +53,8 @@ public class JavaDoc
     /**
      * Get the names of the person.
      * @deprecated Don't use this function. It is not flexible. 
-     * Use {@link #getFirstname()} and 
-     * 	{@link net.openwritings.java.javadoc.JavaDoc#getLastname() Text linked to getLastname()} instead. 
+     * Instead, use {@link #getFirstname()} and 
+     * 	{@link net.openwritings.java.javadoc.JavaDoc#getLastname() Text linked to getLastname()}. 
      * @return Get the names of the person.
      */
     public final String getNames(){
