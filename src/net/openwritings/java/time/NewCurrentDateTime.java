@@ -20,6 +20,7 @@ public class NewCurrentDateTime {
         System.out.println(zonedDateTime.toString());
 
         // Convert current date time to different formats than ISO-8601.
+        // **************************************************************
         System.out.println(
         		localDate.format(DateTimeFormatter.ofPattern("E, dd MMMM yyyy")));
         
