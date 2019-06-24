@@ -20,7 +20,7 @@ public class LoopMap {
 		
 		// Loop through the Set.
 		for (Map.Entry<String,Double> mentry:smap) { 
-			System.out.println(mentry.getKey()+": "+mentry.getValue()); 
+			System.out.println("key: "+mentry.getKey()+", Value: "+mentry.getValue()); 
 		} 
 	}
 }
