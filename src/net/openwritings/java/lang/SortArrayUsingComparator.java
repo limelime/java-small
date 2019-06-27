@@ -3,7 +3,7 @@ package net.openwritings.java.lang;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class SortArray {
+public class SortArrayUsingComparator {
 	
 	public static class SortOn2ndChar implements Comparator<String>
 	{
