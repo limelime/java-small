@@ -22,7 +22,7 @@ public class ConsoleTutorial
         ByteArrayOutputStream newConsole = new ByteArrayOutputStream();
         System.setOut(new PrintStream(newConsole));
 
-        // From here, all System.out.println() calls will be stored in newConsole.
+        // From here on, all System.out.println() calls will be stored in newConsole.
         //  Note: The output "Two - New console" you see from the console doesn't  
         //		come from this line but from the line "previousConsole.println();"
         System.out.println("Two - New console");
