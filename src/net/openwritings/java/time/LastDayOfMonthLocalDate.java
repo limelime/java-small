@@ -10,9 +10,9 @@ public class LastDayOfMonthLocalDate {
 		LocalDate anyDate = LocalDate.of(2013, 1, 17);
 		
 		// Get the last day of the month.
-		LocalDate lastDayOfMonthDate = anyDate.with(TemporalAdjusters.lastDayOfMonth());
+		LocalDate lastDayOfMonth = anyDate.with(TemporalAdjusters.lastDayOfMonth());
 		
 		// Display.
-		System.out.println(lastDayOfMonthDate);
+		System.out.println(lastDayOfMonth);
 	}
 }
