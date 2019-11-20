@@ -3,13 +3,11 @@ package net.openwritings.java.time;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
-
 import java.time.format.DateTimeFormatter;
 
-public class NewCurrentDateTime {
+public class DateTimeCurrent {
 
-    public static void main(String[] args) {
-
+	public static void main(String[] args) {
         LocalDate localDate = LocalDate.now();
         System.out.println(localDate.toString());
 
@@ -29,7 +27,7 @@ public class NewCurrentDateTime {
         
         System.out.println(
         		zonedDateTime.format(DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss z")));
-        
-    }
+
+	}
 
 }
