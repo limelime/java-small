@@ -3,7 +3,7 @@ package net.openwritings.java.time;
 import java.time.format.DateTimeFormatter;
 import java.time.LocalDateTime;
 
-public class DateTimeParse {
+public class DateTime8Parse {
 
 	public static void main(String[] args) {
 		
