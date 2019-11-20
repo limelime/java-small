@@ -27,7 +27,5 @@ public class DateTimeCurrent {
         
         System.out.println(
         		zonedDateTime.format(DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss z")));
-
 	}
-
 }
