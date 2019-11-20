@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class DateTimeCurrent {
+public class DateTime8Current {
 
 	public static void main(String[] args) {
         LocalDate localDate = LocalDate.now();
