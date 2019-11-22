@@ -1,5 +1,7 @@
 package net.openwritings.java.string;
 
+import java.util.Calendar;
+
 public class StringFormat {
 
 	public static void main(String[] args) {
@@ -38,8 +40,14 @@ public class StringFormat {
 	
 		// Pad zeros so the length is 9 digits long.
 		sf = String.format("%09d", count);
-		System.out.println(sf);				
-
+		System.out.println(sf);
+		
+		// -----------------
+		// ## Format date	
+		Calendar now = Calendar.getInstance();
+		sf = String.format("%tF", now);
+		System.out.println(sf);
+		
 	}
 
 }
