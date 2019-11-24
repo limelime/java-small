@@ -57,6 +57,12 @@ public class StringFormat {
 		sf = String.format("Day: %te", now); 
 		System.out.println(sf);
 
+		
+		// -----------------
+		// ## Move placeholder
+		
+		sf = String.format("%2$s, %1$s, %2$s, %1$s", "one", "two"); 
+		System.out.println(sf);
 	}
 
 }
