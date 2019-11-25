@@ -5,7 +5,6 @@ import java.util.Calendar;
 import java.text.SimpleDateFormat;
 
 public class DateTime7Current {
-
     public static void main(String[] args) {
 
     	// Using Date class.
@@ -18,7 +17,5 @@ public class DateTime7Current {
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
         System.out.println(sdf.format(calendar.getTime()));
-
     }
-
 }
