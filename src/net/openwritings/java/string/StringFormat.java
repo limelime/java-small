@@ -38,16 +38,31 @@ public class StringFormat {
 		sf = String.format("%,.2f", avg);
 		System.out.println(sf);
 	
-		// Pad zeros so the length is 9 digits long.
-		sf = String.format("%09d", count);
+		// Pad zeros so the length is 12 digits long.
+		sf = String.format("%012d", count);
 		System.out.println(sf);
 		
 		// -----------------
 		// ## Format date	
 		Calendar now = Calendar.getInstance();
-		sf = String.format("%tF", now);
+		sf = String.format("ISO 8601 date format: %tF", now);
 		System.out.println(sf);
 		
+		sf = String.format("Year: %tY", now); 
+		System.out.println(sf);
+
+		sf = String.format("Month: %tm", now); 
+		System.out.println(sf);
+
+		sf = String.format("Day: %te", now); 
+		System.out.println(sf);
+
+		
+		// -----------------
+		// ## Move placeholder
+		
+		sf = String.format("%2$s, %1$s, %2$s, %1$s", "one", "two"); 
+		System.out.println(sf);
 	}
 
 }
